@@ -34,7 +34,7 @@ float vsum(float *v, int n){
 }
 
 
-float vsum2(float *v, int n){
+float vsum1(float *v, int n){
   vfloat32m1_t vs, vv;
   float s;
   int i;
@@ -58,7 +58,7 @@ float vsum2(float *v, int n){
 }
 
 
-float vsum3(float *v, int n){
+float vsum2(float *v, int n){
   vfloat32m2_t vv;
   vfloat32m1_t vs;
   float s;
